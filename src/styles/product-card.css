@@ -1,0 +1,79 @@
+/* Product Item Styles */
+.product__item {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.product__item:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.product__img {
+  margin-bottom: 15px;
+  transition: 0.4s;
+  max-width: 100%;
+}
+
+.product__img:hover {
+  transform: scale(1.1);
+}
+
+.product__content h5 a {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product__content h5 a:hover {
+  color: #df2020;
+}
+
+.product__content h5 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.product__price {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #27ae60; /* Change price color to green (#27ae60) */
+  margin-bottom: 15px;
+}
+
+.addTOCart__btn {
+  border: none;
+  padding: 10px 25px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addTOCart__btn:hover {
+  background: #212245;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+  .product__content h5 a {
+    font-size: 0.9rem;
+  }
+  .product__item {
+    padding: 15px;
+  }
+  .product__price {
+    font-size: 1rem;
+  }
+  .addTOCart__btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
+}

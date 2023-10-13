@@ -1,0 +1,39 @@
+/* Category Item Styles */
+.category__item {
+  background: #3498db; /* Blue background color for category items */
+  color: #fff; /* White text color for category items */
+  padding: 25px 20px; /* Adjusted padding for category items */
+  border-radius: 10px; /* Rounded corners for category items */
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for category items */
+}
+
+.category__item:hover {
+  transform: translateY(-10px); /* Slightly lift category item on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased shadow effect on hover */
+}
+
+/* Category Image Styles */
+.category__img img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular image shape for category images */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .category__item {
+    padding: 20px 15px; /* Adjusted padding for category items on smaller screens */
+  }
+
+  .category__img img {
+    width: 50px;
+    height: 50px; /* Adjusted image size for smaller screens */
+  }
+
+  .category__item h6 {
+    font-size: 1rem; /* Restored font size for category item headings on smaller screens */
+  }
+}

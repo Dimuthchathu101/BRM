@@ -1,0 +1,58 @@
+/* Cart Item Styles */
+.cart__item-info img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%; /* Add rounded corners to the images */
+}
+
+.cart__product-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #27ae60; /* Change title color to green */
+  margin-bottom: 5px;
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.cart__product-price {
+  font-size: 0.9rem;
+  color: #2980b9; /* Change price color to a shade of blue */
+}
+
+.cart__product-price span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e74c3c; /* Change price label color to red */
+}
+
+.increase__decrease-btn {
+  background: #f39c12; /* Change button background color to orange */
+  color: #fff; /* Change button text color to white */
+  padding: 4px 10px;
+  border-radius: 8px; /* Add rounded corners to the buttons */
+  margin-top: 5px;
+  display: inline-block;
+
+}
+
+.increase__decrease-btn:hover {
+  background: #e67e22; /* Change button background color on hover */
+}
+
+.delete__btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #c0392b; /* Change delete button color to a darker shade of red */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.delete__btn:hover {
+  color: #e74c3c; /* Change delete button color on hover */
+}
+
+.cart__item {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #d35400; /* Change border color to a shade of orange */
+  padding-bottom: 15px; /* Add padding to the bottom of each cart item */
+}

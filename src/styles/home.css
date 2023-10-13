@@ -1,0 +1,94 @@
+/* Feature Section Styles */
+.feature__subtitle {
+  color: #3498db; /* Blue color for feature subtitle */
+}
+
+.feature__title span {
+  color: #e67e22; /* Orange color for feature title span */
+}
+
+.feature__text {
+  color: #27ae60; /* Green color for feature text */
+}
+
+.feature__item p {
+  color: #27ae60; /* Green color for feature item paragraphs */
+}
+
+/* Food Category Styles */
+.food__category {
+  background: #3385ff; /* Red background color for food category */
+}
+
+.food__category button {
+  color: #e74c3c; /* Red color for food category button text */
+}
+
+.foodBtnActive {
+  background: #fff !important;
+  border-radius: 5px;
+  color: #e74c3c !important;
+}
+
+/* Tasty Treat Section Styles */
+.tasty__treat-title span {
+  color: #e67e22; /* Orange color for tasty treat title span */
+}
+
+.tasty__treat-desc {
+  color: #8e44ad; /* Purple color for tasty treat description */
+}
+
+/* Choose Us Section Styles */
+.choose__us-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #e74c3c; /* Red color for choose us title */
+}
+
+.choose__us-title i {
+  font-weight: 500 !important;
+  color: #27ae60; /* Green color for icon inside choose us title */
+}
+
+.choose__us-desc {
+  color: #8e44ad; /* Purple color for choose us description */
+
+}
+
+/* Testimonial Section Styles */
+.testimonial__subtitle {
+  color: #e67e22; /* Orange color for testimonial subtitle */
+}
+
+.testimonial__title span {
+  color: #e67e22; /* Orange color for testimonial title span */
+}
+
+.testimonial__desc {
+  color: #8e44ad; /* Purple color for testimonial description */
+}
+
+
+.custom-img-size {
+  width: 100%; /* Adjust the width as per your requirement */
+  /* You can also set max-width or height properties if needed */
+}
+
+
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    text-align: center;
+  }
+
+  .hero__btns {
+    justify-content: center;
+  }
+
+  .hero__service {
+    justify-content: center;
+  }
+  .why__choose-us {
+    padding-top: 0 !important;
+  }
+}

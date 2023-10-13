@@ -1,0 +1,38 @@
+/* Review Text Styles */
+.review__text {
+  color: #555; /* Darker grey color for review text */
+  line-height: 1.6;
+  margin: 30px 0; /* Reduced top margin for better spacing */
+}
+
+/* Slider Content Styles */
+.slider__content img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Circular profile images */
+  object-fit: cover;
+  margin-right: 10px; /* Added margin to the right of profile images */
+}
+
+.slider__content h6 {
+  font-size: 1rem; /* Increased font size for reviewer names */
+  color: #212245; /* Darker color for reviewer names */
+  margin-bottom: 10px; /* Added bottom margin for better spacing */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .review__text {
+    font-size: 0.9rem; /* Slightly increased font size for review text */
+    margin: 20px 0;
+  }
+
+  .slider__content img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .slider__content h6 {
+    font-size: 0.9rem; /* Slightly increased font size for reviewer names */
+  }
+}

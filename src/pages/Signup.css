@@ -1,0 +1,54 @@
+.app-signup {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1.5rem;
+}
+
+.login-form {
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  height: 440px;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-form .text-input {
+  margin-bottom: 1rem;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.text-input {
+  width: 15rem;
+  align-items: center;
+}
+
+.hr {
+  margin: 1em;
+}

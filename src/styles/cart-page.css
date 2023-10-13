@@ -1,0 +1,53 @@
+/* Table Header Styles */
+th {
+  text-align: center;
+  background-color: #3498db; /* Blue background color for table headers */
+  color: #fff; /* White text color for table headers */
+  padding: 12px; /* Padding for table headers */
+}
+
+/* Cart Image Box Styles */
+.cart__img-box {
+  width: 80px;
+  background-color: #f39c12; /* Orange background color for image boxes */
+  border-radius: 10px; /* Rounded corners for image boxes */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.cart__img-box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Delete Icon Styles */
+.cart__item-del i {
+  cursor: pointer;
+  color: #e74c3c; /* Dark red color for delete icons */
+  font-size: 1.2rem;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.cart__item-del i:hover {
+  color: #c0392b; /* Lighter red color for delete icons on hover */
+}
+
+/* Cart Page Button Styles */
+.cart__page-btn button a:hover {
+  color: #f39c12; /* Orange color for button links on hover */
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Cart Subtotal Styles */
+.cart__subtotal {
+  color: #e74c3c; /* Red color for subtotal text */
+  font-size: 1.8rem; /* Larger font size for subtotal */
+  font-weight: 700; /* Bold font weight for subtotal */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+}

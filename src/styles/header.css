@@ -1,0 +1,117 @@
+/* Header Styles */
+.header {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background: #3498db; /* Blue background color for header */
+  color: #fff; /* White text color for header */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition: background 0.3s ease; /* Smooth transition for background color change */
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 60%; /* Adjusted logo width */
+  object-fit: contain;
+  margin-top: -40px;
+}
+
+.logo h5 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: -40px;
+  margin-bottom: 0;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff; 
+  transition: 0.3s;
+  margin: 0 15px; 
+  text-transform: uppercase; 
+}
+
+.menu a:hover {
+  color: #e74c3c; /* Red color for menu links on hover */
+}
+
+.active__menu {
+  color: #e74c3c !important; /* Red color for active menu link */
+}
+
+.cart__icon i,
+.user i,
+.mobile__menu i {
+  font-size: 1.5rem; /* Increased font size for icons */
+  cursor: pointer;
+}
+
+.cart__icon {
+  position: relative;
+}
+
+.cart__badge {
+  position: absolute;
+  top: 20px;
+  right: -10px;
+  background: #e74c3c; /* Red background color for cart badge */
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__menu {
+  font-weight: 600;
+  display: none;
+}
+
+/* Sticky Header Styles */
+.header__shrink {
+  height: 60px; 
+  line-height: 60px; 
+  background: #3498db; 
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); /* Light shadow for sticky header */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+  .header {
+    height: 70px; /* Reduced height for header on smaller screens */
+    line-height: 70px; /* Reduced line height for header on smaller screens */
+  }
+
+  .logo img {
+    width: 50%; /* Further reduced logo width on smaller screens */
+    margin-top: -60px !important; /* Adjusted margin top for logo on smaller screens */
+  }
+
+  .logo h5 {
+    margin-top: -45px; /* Adjusted margin top for logo heading on smaller screens */
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+    margin: 0 10px; /* Reduced margin between menu links on smaller screens */
+  }
+
+  .cart__badge {
+    top: 15px; /* Adjusted top position for cart badge on smaller screens */
+    right: -8px; /* Adjusted right position for cart badge on smaller screens */
+    width: 18px; /* Reduced width for cart badge on smaller screens */
+    height: 18px; /* Reduced height for cart badge on smaller screens */
+    font-size: 0.8rem; /* Reduced font size for cart badge on smaller screens */
+  }
+}

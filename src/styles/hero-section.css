@@ -1,0 +1,63 @@
+/* Hero Section Styles */
+.hero__content {
+  padding-top: 100px; /* Increased padding top for hero content */
+}
+
+.hero__title {
+  font-size: 3rem; /* Increased font size for hero title */
+  line-height: 60px; /* Increased line height for hero title */
+}
+
+.hero__title span {
+  color: #e74c3c; /* Changed color for the span element */
+}
+
+.hero__content p {
+  font-size: 1.1rem; /* Increased font size for hero content paragraphs */
+  line-height: 35px; /* Increased line height for hero content paragraphs */
+  color: #555; /* Changed text color for hero content paragraphs */
+}
+
+.hero__btns button {
+  border: none;
+  outline: none;
+  padding: 10px 25px; /* Increased padding for buttons */
+  border-radius: 8px; /* Increased border radius for buttons */
+  cursor: pointer;
+  font-weight: 700; /* Increased font weight for buttons */
+}
+
+.order__btn {
+  background: #e74c3c; /* Red background color for order button */
+  color: #fff; /* White text color for order button */
+  transition: 0.3s;
+}
+
+.order__btn:hover {
+  background: #212245; /* Darker background color on hover */
+}
+
+.all__foods-btn {
+  background: transparent;
+  border: 2px solid #e74c3c !important; /* Red border for all foods button */
+}
+
+.all__foods-btn a {
+  color: #e74c3c; /* Red color for the link inside the button */
+}
+
+/* Hero Service Styles */
+.hero__service p {
+  color: #212245; /* Text color for hero service paragraphs */
+  font-weight: 600;
+  font-size: 1rem; /* Font size for hero service paragraphs */
+}
+
+/* Shipping Icon Styles */
+.shipping__icon i {
+  padding: 8px; /* Increased padding for shipping icon */
+  background: #e74c3c; /* Red background for shipping icon */
+  color: #fff; /* White text color for shipping icon */
+  border-radius: 50%;
+  font-weight: 600 !important; /* Increased font weight for shipping icon */
+}

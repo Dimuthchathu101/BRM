@@ -1,0 +1,31 @@
+/* Checkout Bill Styles */
+.checkout__bill {
+  background: #27ae60; /* Green background color for checkout bill */
+  color: #fff; /* White text color for checkout bill */
+  padding: 20px; /* Adjusted padding for checkout bill */
+  border-radius: 10px; /* Rounded corners for checkout bill */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for checkout bill */
+}
+
+.checkout__total {
+  border-top: 1px solid #ddd;
+  padding-top: 20px; /* Adjusted padding-top for checkout total */
+  margin-top: 20px; /* Adjusted margin-top for checkout total */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .checkout__bill h6 {
+    font-size: 1rem; /* Restored font size for checkout bill headings on smaller screens */
+  }
+
+  .checkout__bill {
+    margin-top: 30px; /* Adjusted margin-top for checkout bill on smaller screens */
+    padding: 15px; /* Adjusted padding for checkout bill on smaller screens */
+  }
+
+  .checkout__total {
+    padding-top: 20px; /* Adjusted padding-top for checkout total on smaller screens */
+    margin-top: 20px; /* Adjusted margin-top for checkout total on smaller screens */
+  }
+}
